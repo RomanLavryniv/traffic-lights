@@ -1,0 +1,30 @@
+#trafficLight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+.lightBorder {
+   align-content: center;
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   border: 1px solid white;
+}
+.redLight {
+   background: red;
+}
+.yellowLight {
+   background: yellow;
+}
+.greenLight {
+   background: green;
+}
